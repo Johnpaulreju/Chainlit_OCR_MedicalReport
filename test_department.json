@@ -1,0 +1,606 @@
+[
+    {
+      "testName": "Skin Allergy Test",
+      "primaryDepartment": "Dermatology",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Skin Biopsy",
+      "primaryDepartment": "Dermatology",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Hearing Test",
+      "primaryDepartment": "Ear, Nose, and Throat (ENT)",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Laryngoscopy",
+      "primaryDepartment": "Ear, Nose, and Throat (ENT)",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Vestibular Tests",
+      "primaryDepartment": "Ear, Nose, and Throat (ENT)",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Electronystagmography (ENG)",
+      "primaryDepartment": "Ear, Nose, and Throat (ENT)",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Videonystagmography (VNG)",
+      "primaryDepartment": "Ear, Nose, and Throat (ENT)",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Capsule Endoscopy",
+      "primaryDepartment": "Gastroenterology",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Colonoscopy",
+      "primaryDepartment": "Gastroenterology",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Endoscopic Retrograde Cholangiopancreatography (ERCP)",
+      "primaryDepartment": "Gastroenterology",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Esophagogastroduodenoscopy (EGD)",
+      "primaryDepartment": "Gastroenterology",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Esophageal Motility Study",
+      "primaryDepartment": "Gastroenterology",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Esophageal pH Monitoring",
+      "primaryDepartment": "Gastroenterology",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Liver Biopsy",
+      "primaryDepartment": "Gastroenterology",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Bone Marrow Examination",
+      "primaryDepartment": "Hematology",
+      "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+      }
+    },
+    {
+      "testName": "Arterial Blood Gas (ABG)",
+      "primaryDepartment": "Laboratory Medicine - Biochemistry",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "Complete Blood Count (CBC)",
+      "primaryDepartment": "Laboratory Medicine - Biochemistry",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "Comprehensive Metabolic Panel (CMP)",
+      "primaryDepartment": "Laboratory Medicine - Biochemistry",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "Coagulation Tests",
+      "primaryDepartment": "Laboratory Medicine - Biochemistry",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "C-Reactive Protein (CRP)",
+      "primaryDepartment": "Laboratory Medicine - Biochemistry",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "Erythrocyte Sedimentation Rate (ESR)",
+      "primaryDepartment": "Laboratory Medicine - Biochemistry",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "FibroTest",
+      "primaryDepartment": "Laboratory Medicine - Biochemistry",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "Urea Breath Test",
+      "primaryDepartment": "Laboratory Medicine - Biochemistry",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "Urinalysis",
+      "primaryDepartment": "Laboratory Medicine - Biochemistry",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "Genetic Testing",
+      "primaryDepartment": "Laboratory Medicine - Cytogenetics and Molecular Genetics",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "Autoantibodies Testing",
+      "primaryDepartment": "Laboratory Medicine - Immunology",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+      "testName": "Blood Culture",
+      "primaryDepartment": "Laboratory Medicine - Microbiology",
+      "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+      }
+    },
+    {
+        "testName": "Mantoux Test",
+        "primaryDepartment": "Laboratory Medicine - Microbiology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Sputum Culture",
+        "primaryDepartment": "Laboratory Medicine - Microbiology",
+        "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Stool Culture",
+        "primaryDepartment": "Laboratory Medicine - Microbiology",
+        "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Urine Culture",
+        "primaryDepartment": "Laboratory Medicine - Microbiology",
+        "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Electroencephalogram (EEG)",
+        "primaryDepartment": "Neurology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Electromyography (EMG)",
+        "primaryDepartment": "Neurology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Lumbar Puncture",
+        "primaryDepartment": "Neurology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Neuropsychological Tests",
+        "primaryDepartment": "Neurology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Amniocentesis",
+        "primaryDepartment": "Obstetrics and Gynecology",
+        "secondaryDepartment": {
+        "departmentId": 2,
+        "department": "Obstetrics & Gynecology"
+        }
+    },
+    {
+        "testName": "Colposcopy",
+        "primaryDepartment": "Obstetrics and Gynecology",
+        "secondaryDepartment": {
+        "departmentId": 2,
+        "department": "Obstetrics & Gynecology"
+        }
+    },
+    {
+        "testName": "Mammography",
+        "primaryDepartment": "Obstetrics and Gynecology",
+        "secondaryDepartment": {
+        "departmentId": 2,
+        "department": "Obstetrics & Gynecology"
+        }
+    },
+    {
+        "testName": "Hysteroscopy",
+        "primaryDepartment": "Obstetrics and Gynecology",
+        "secondaryDepartment": {
+        "departmentId": 2,
+        "department": "Obstetrics & Gynecology"
+        }
+    },
+    {
+        "testName": "Laparoscopy",
+        "primaryDepartment": "Obstetrics and Gynecology",
+        "secondaryDepartment": {
+        "departmentId": 2,
+        "department": "Obstetrics & Gynecology"
+        }
+    },
+    {
+        "testName": "Pap Smear",
+        "primaryDepartment": "Obstetrics and Gynecology",
+        "secondaryDepartment": {
+        "departmentId": 2,
+        "department": "Obstetrics & Gynecology"
+        }
+    },
+    {
+        "testName": "Dilated Fundus Examination",
+        "primaryDepartment": "Ophthalmology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Multifocal Electroretinography (mfERG)",
+        "primaryDepartment": "Ophthalmology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Optical Coherence Tomography (OCT)",
+        "primaryDepartment": "Ophthalmology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Visual Field Test",
+        "primaryDepartment": "Ophthalmology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Polysomnography",
+        "primaryDepartment": "Pulmonology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Pulmonary Plethysmography",
+        "primaryDepartment": "Pulmonology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Thoracentesis",
+        "primaryDepartment": "Pulmonology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "CT Scan",
+        "primaryDepartment": "Radiology",
+        "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Magnetic Resonance Imaging (MRI)",
+        "primaryDepartment": "Radiology",
+        "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Nuclear Medicine",
+        "primaryDepartment": "Radiology",
+        "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Positron-Emission Tomography (PET)",
+        "primaryDepartment": "Radiology",
+        "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Projectional Radiography",
+        "primaryDepartment": "Radiology",
+        "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Ultrasonography",
+        "primaryDepartment": "Radiology",
+        "secondaryDepartment": {
+        "departmentId": 4,
+        "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Arthroscopy",
+        "primaryDepartment": "Rheumatology",
+        "secondaryDepartment": {
+        "departmentId": 5,
+        "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Cystoscopy",
+        "primaryDepartment": "Urology",
+        "secondaryDepartment": {
+          "departmentId": 5,
+          "department": "General Medicine"
+        }
+      },
+      {
+        "testName": "Auscultation",
+        "primaryDepartment": "General Medicine",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Palpation",
+        "primaryDepartment": "General Medicine",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Percussion",
+        "primaryDepartment": "General Medicine",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Vital Signs Measurement",
+        "primaryDepartment": "General Medicine",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Blood Test",
+        "primaryDepartment": "Laboratory Medicine",
+        "secondaryDepartment": {
+            "departmentId": 4,
+            "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Stool Test",
+        "primaryDepartment": "Laboratory Medicine",
+        "secondaryDepartment": {
+            "departmentId": 4,
+            "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Urinalysis",
+        "primaryDepartment": "Laboratory Medicine",
+        "secondaryDepartment": {
+            "departmentId": 4,
+            "department": "Radiology & Diagnostics"
+        }
+    },
+    {
+        "testName": "Cardiac Stress Test",
+        "primaryDepartment": "Cardiology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Electrocardiography",
+        "primaryDepartment": "Cardiology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Electrocorticography",
+        "primaryDepartment": "Neurology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Electrooculography",
+        "primaryDepartment": "Ophthalmology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Electroretinography",
+        "primaryDepartment": "Ophthalmology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Endoluminal Capsule Monitoring",
+        "primaryDepartment": "Gastroenterology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Gastroscopy",
+        "primaryDepartment": "Gastroenterology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Ophthalmoscopy",
+        "primaryDepartment": "Ophthalmology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Otoscopy",
+        "primaryDepartment": "Otolaryngology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Sigmoidoscopy",
+        "primaryDepartment": "Gastroenterology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Evoked Potential",
+        "primaryDepartment": "Neurology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    },
+    {
+        "testName": "Magnetoencephalography",
+        "primaryDepartment": "Neurology",
+        "secondaryDepartment": {
+            "departmentId": 5,
+            "department": "General Medicine"
+        }
+    }
+]      
+    
+        
+
+

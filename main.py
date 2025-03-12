@@ -360,48 +360,48 @@ def analyze_with_llm(text):
 
 
 
-# def analyze_with_llm(text):
-#     """Formats extracted text into two structured Markdown tables: 
-#     1. Full Report (All test results)
-#     2. Issues Found (Abnormal or Borderline Values)"""
+def analyze_with_llm(text):
+    """Formats extracted text into two structured Markdown tables: 
+    1. Full Report (All test results)
+    2. Issues Found (Abnormal or Borderline Values)"""
     
-#     client = openai.OpenAI()
+    client = openai.OpenAI()
 
-#     prompt = f"""
-#     The following text is extracted from a medical report. Your task is to:
+    prompt = f"""
+    The following text is extracted from a medical report. Your task is to:
     
-#     1. **Create a table with ALL test results**.
-#     2. **Create a second table called "Issues Found"**:
-#        - Include only values that are **above or below reference limits**.
-#        - Also include **borderline values** (close to limit but within range).
-#        - Mark abnormalities with:
-#          - 🔴 **High (H) or Low (L)**
-#          - 🔶 **Borderline**
-#     3. **Use this Markdown table format** (NO code blocks! Just plain Markdown):
+    1. **Create a table with ALL test results**.
+    2. **Create a second table called "Issues Found"**:
+       - Include only values that are **above or below reference limits**.
+       - Also include **borderline values** (close to limit but within range).
+       - Mark abnormalities with:
+         - 🔴 **High (H) or Low (L)**
+         - 🔶 **Borderline**
+    3. **Use this Markdown table format** (NO code blocks! Just plain Markdown):
     
-#     ### Full Medical Report:
-#     | **Test**                     | **Result**    | **Unit**          | **Biological Ref. Interval** |
-#     |------------------------------|--------------|-------------------|------------------------------|
-#     | Hemoglobin                   | 14.5         | g/dL              | 13.0 - 16.5                  |
-#     | RBC Count                    | 4.79         | million/cmm       | 4.5 - 5.5                    |
+    ### Full Medical Report:
+    | **Test**                     | **Result**    | **Unit**          | **Biological Ref. Interval** |
+    |------------------------------|--------------|-------------------|------------------------------|
+    | Hemoglobin                   | 14.5         | g/dL              | 13.0 - 16.5                  |
+    | RBC Count                    | 4.79         | million/cmm       | 4.5 - 5.5                    |
     
-#     ### Issues Found:
-#     | **Test**                     | **Result**    | **Unit**          | **Biological Ref. Interval** |
-#     |------------------------------|--------------|-------------------|------------------------------|
-#     | Triglyceride                 | **168.0** 🔴 | mg/dL             | **Normal <150**              |
-#     | HbA1c                        | **7.10** 🔴  | %                 | **Diabetes >6.5%**           |
+    ### Issues Found:
+    | **Test**                     | **Result**    | **Unit**          | **Biological Ref. Interval** |
+    |------------------------------|--------------|-------------------|------------------------------|
+    | Triglyceride                 | **168.0** 🔴 | mg/dL             | **Normal <150**              |
+    | HbA1c                        | **7.10** 🔴  | %                 | **Diabetes >6.5%**           |
 
-#     **Extracted Medical Report Data:**
-#     {text}
-#     """
+    **Extracted Medical Report Data:**
+    {text}
+    """
 
-#     response = client.chat.completions.create(
-#         model="gpt-4o",
-#         messages=[
-#             {"role": "system", "content": "You are an AI that extracts and formats medical test results into structured tables using Markdown."},
-#             {"role": "user", "content": prompt}
-#         ]
-#     )
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {"role": "system", "content": "You are an AI that extracts and formats medical test results into structured tables using Markdown."},
+            {"role": "user", "content": prompt}
+        ]
+    )
 
-#     return response.choices[0].message.content
+    return response.choices[0].message.content
 
