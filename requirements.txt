@@ -1,0 +1,10 @@
+chainlit
+PyPDF2
+python-docx
+pytesseract  # For OCR (text recognition in images)
+opencv-python  # For image processing
+numpy  # For color detection in images
+pandas  # For handling CSV and data tables
+pdfplumber
+openai
+python-dotenv
