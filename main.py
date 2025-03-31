@@ -203,6 +203,7 @@ async def process_message(message: cl.Message):
     print("analyzing completed",structured_response)
     print("\n")
 
+    print("📤 Sending response to Chainlit UI...")
     if structured_response:
         print("📤 Sending response to Chainlit UI...")
         await cl.Message(structured_response).send()
